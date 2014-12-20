@@ -14,7 +14,8 @@ Otherwise here are the guidelines
 
 A barebone code would look like this
 
-`local maelstrom = CreateFrame("Frame", nil, self)
+```
+local maelstrom = CreateFrame("Frame", nil, self)
 maelstrom:SetPoint('CENTER', self.Health, 'TOP', 0, 1)
 maelstrom:SetHeight(5)
 maelstrom:SetWidth(5)
@@ -34,4 +35,5 @@ for i = 1,5 do
 	end
 end
 
-self.Maelstrom = maelstrom`
+self.Maelstrom = maelstrom
+```
